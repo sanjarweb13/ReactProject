@@ -1,0 +1,97 @@
+{
+  "updateGalleryCard": [
+    {
+      "id": "1",
+      "imageURL": "https://i.pinimg.com/736x/b8/67/c6/b867c6aa54016d31414e7f3fc9f16a04.jpg",
+      "title": "Tips For Prepping And Caring For Your Grill",
+      "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro doloribus quae assumenda id eos molestias minus ipsam quo ad.",
+      "date": "26 August, 2022",
+      "createdBy": "Annalisa L.",
+      "exttitle": "Taste Of Grill",
+      "extdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, officia ratione? Nihil consectetur temporibus molestiae explicabo voluptatum hic modi distinctio eveniet tempore, eligendi ipsam eum, voluptates architecto excepturi minima ipsum quas est rem. Atque facilis vel quibusdam vitae fugit quo autem rem modi. Necessitatibus, deleniti nihil aut distinctio rerum sequi quidem quod delectus odio omnis, laborum aliquid esse fuga non. Quis animi neque culpa, iusto ullam velit voluptatum illo rem sapiente fuga amet voluptates sint aliquid aliquam tempore a tenetur impedit voluptas vero reiciendis ipsum blanditiis totam facilis consectetur. Autem consequatur ullam sed dicta ratione, labore atque quas ipsam unde."
+    },
+    {
+      "id": "2",
+      "imageURL": "https://images.unsplash.com/photo-1619604394865-437a9fd6853c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9ja3RhaWx8ZW58MHx8MHx8&w=1000&q=80",
+      "title": "Summer Cocktails And Mocktails",
+      "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro doloribus quae assumenda id eos molestias minus ipsam quo ad.",
+      "date": "22 August, 2022",
+      "createdBy": "John S.",
+      "exttitle": "My Favourite Drinks",
+      "extdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, officia ratione? Nihil consectetur temporibus molestiae explicabo voluptatum hic modi distinctio eveniet tempore, eligendi ipsam eum, voluptates architecto excepturi minima ipsum quas est rem. Atque facilis vel quibusdam vitae fugit quo autem rem modi. Necessitatibus, deleniti nihil aut distinctio rerum sequi quidem quod delectus odio omnis, laborum aliquid esse fuga non. Quis animi neque culpa, iusto ullam velit voluptatum illo rem sapiente fuga amet voluptates sint aliquid aliquam tempore a tenetur impedit voluptas vero reiciendis ipsum blanditiis totam facilis consectetur. Autem consequatur ullam sed dicta ratione, labore atque quas ipsam unde."
+    },
+    {
+      "id": "3",
+      "imageURL": "https://blogs.surrey.ac.uk/student-experience/wp-content/uploads/sites/61/2018/03/fullsizeoutput_23c.jpeg",
+      "title": "Easy Cooking For College Students",
+      "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro doloribus quae assumenda id eos molestias minus ipsam quo ad.",
+      "date": "24 August, 2022",
+      "createdBy": "Johanna R.",
+      "exttitle": "Happy Cooking",
+      "extdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, officia ratione? Nihil consectetur temporibus molestiae explicabo voluptatum hic modi distinctio eveniet tempore, eligendi ipsam eum, voluptates architecto excepturi minima ipsum quas est rem. Atque facilis vel quibusdam vitae fugit quo autem rem modi. Necessitatibus, deleniti nihil aut distinctio rerum sequi quidem quod delectus odio omnis, laborum aliquid esse fuga non. Quis animi neque culpa, iusto ullam velit voluptatum illo rem sapiente fuga amet voluptates sint aliquid aliquam tempore a tenetur impedit voluptas vero reiciendis ipsum blanditiis totam facilis consectetur. Autem consequatur ullam sed dicta ratione, labore atque quas ipsam unde."
+    }
+  ],
+
+  "viewMoreUpdateGalleryCard": [
+    {
+      "id": "1",
+      "imageURL": "https://i.pinimg.com/736x/b8/67/c6/b867c6aa54016d31414e7f3fc9f16a04.jpg",
+      "title": "Tips For Prepping And Caring For Your Grill",
+      "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro doloribus quae assumenda id eos molestias minus ipsam quo ad.",
+      "date": "26 August, 2022",
+      "createdBy": "Annalisa L.",
+      "ex2title": "Taste Of Grill",
+      "ex2description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, officia ratione? Nihil consectetur temporibus molestiae explicabo voluptatum hic modi distinctio eveniet tempore, eligendi ipsam eum, voluptates architecto excepturi minima ipsum quas est rem. Atque facilis vel quibusdam vitae fugit quo autem rem modi. Necessitatibus, deleniti nihil aut distinctio rerum sequi quidem quod delectus odio omnis, laborum aliquid esse fuga non. Quis animi neque culpa, iusto ullam velit voluptatum illo rem sapiente fuga amet voluptates sint aliquid aliquam tempore a tenetur impedit voluptas vero reiciendis ipsum blanditiis totam facilis consectetur. Autem consequatur ullam sed dicta ratione, labore atque quas ipsam unde."
+    },
+    {
+      "id": "2",
+      "imageURL": "https://images.unsplash.com/photo-1619604394865-437a9fd6853c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9ja3RhaWx8ZW58MHx8MHx8&w=1000&q=80",
+      "title": "Summer Cocktails And Mocktails",
+      "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro doloribus quae assumenda id eos molestias minus ipsam quo ad.",
+      "date": "22 August, 2022",
+      "createdBy": "John S.",
+      "ex2title": "My Favourite Drinks",
+      "ex2description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, officia ratione? Nihil consectetur temporibus molestiae explicabo voluptatum hic modi distinctio eveniet tempore, eligendi ipsam eum, voluptates architecto excepturi minima ipsum quas est rem. Atque facilis vel quibusdam vitae fugit quo autem rem modi. Necessitatibus, deleniti nihil aut distinctio rerum sequi quidem quod delectus odio omnis, laborum aliquid esse fuga non. Quis animi neque culpa, iusto ullam velit voluptatum illo rem sapiente fuga amet voluptates sint aliquid aliquam tempore a tenetur impedit voluptas vero reiciendis ipsum blanditiis totam facilis consectetur. Autem consequatur ullam sed dicta ratione, labore atque quas ipsam unde."
+    },
+    {
+      "id": "3",
+      "imageURL": "https://blogs.surrey.ac.uk/student-experience/wp-content/uploads/sites/61/2018/03/fullsizeoutput_23c.jpeg",
+      "title": "Easy Cooking For College Students",
+      "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro doloribus quae assumenda id eos molestias minus ipsam quo ad.",
+      "date": "24 August, 2022",
+      "createdBy": "Johanna R.",
+      "ex2title": "Happy Cooking",
+      "ex2description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, officia ratione? Nihil consectetur temporibus molestiae explicabo voluptatum hic modi distinctio eveniet tempore, eligendi ipsam eum, voluptates architecto excepturi minima ipsum quas est rem. Atque facilis vel quibusdam vitae fugit quo autem rem modi. Necessitatibus, deleniti nihil aut distinctio rerum sequi quidem quod delectus odio omnis, laborum aliquid esse fuga non. Quis animi neque culpa, iusto ullam velit voluptatum illo rem sapiente fuga amet voluptates sint aliquid aliquam tempore a tenetur impedit voluptas vero reiciendis ipsum blanditiis totam facilis consectetur. Autem consequatur ullam sed dicta ratione, labore atque quas ipsam unde."
+    },
+    {
+      "id": "4",
+      "imageURL": "https://img.taste.com.au/0vQiCeHK/taste/2021/11/thai-deep-fried-whole-fish-175410-1.jpg",
+      "title": "The Most Tasty Food Is Fried Fish",
+      "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro doloribus quae assumenda id eos molestias minus ipsam quo ad.",
+      "date": "12 August, 2022",
+      "createdBy": "Fred G.",
+      "ex2title": "Fried Fishes",
+      "ex2description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, officia ratione? Nihil consectetur temporibus molestiae explicabo voluptatum hic modi distinctio eveniet tempore, eligendi ipsam eum, voluptates architecto excepturi minima ipsum quas est rem. Atque facilis vel quibusdam vitae fugit quo autem rem modi. Necessitatibus, deleniti nihil aut distinctio rerum sequi quidem quod delectus odio omnis, laborum aliquid esse fuga non. Quis animi neque culpa, iusto ullam velit voluptatum illo rem sapiente fuga amet voluptates sint aliquid aliquam tempore a tenetur impedit voluptas vero reiciendis ipsum blanditiis totam facilis consectetur. Autem consequatur ullam sed dicta ratione, labore atque quas ipsam unde."
+    },
+    {
+      "id": "5",
+      "imageURL": "https://www.cameronsseafood.com/wp-content/uploads/2018/10/howtocookcrablegs.jpg",
+      "title": "I Like Crabs They Are So Delicious",
+      "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro doloribus quae assumenda id eos molestias minus ipsam quo ad.",
+      "date": "20 August, 2022",
+      "createdBy": "Domenik F.",
+      "ex2title": "Crabs More Tasty Than ....",
+      "ex2description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, officia ratione? Nihil consectetur temporibus molestiae explicabo voluptatum hic modi distinctio eveniet tempore, eligendi ipsam eum, voluptates architecto excepturi minima ipsum quas est rem. Atque facilis vel quibusdam vitae fugit quo autem rem modi. Necessitatibus, deleniti nihil aut distinctio rerum sequi quidem quod delectus odio omnis, laborum aliquid esse fuga non. Quis animi neque culpa, iusto ullam velit voluptatum illo rem sapiente fuga amet voluptates sint aliquid aliquam tempore a tenetur impedit voluptas vero reiciendis ipsum blanditiis totam facilis consectetur. Autem consequatur ullam sed dicta ratione, labore atque quas ipsam unde."
+    },
+    {
+      "id": "6",
+      "imageURL": "https://blog.fablunch.com/wp-content/uploads/Salads-TN-1.jpg",
+      "title": "Salads Are Useful For Everyone's Health",
+      "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore porro doloribus quae assumenda id eos molestias minus ipsam quo ad.",
+      "date": "15 August, 2022",
+      "createdBy": "Julia N.",
+      "ex2title": "Healthy is most important",
+      "ex2description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, officia ratione? Nihil consectetur temporibus molestiae explicabo voluptatum hic modi distinctio eveniet tempore, eligendi ipsam eum, voluptates architecto excepturi minima ipsum quas est rem. Atque facilis vel quibusdam vitae fugit quo autem rem modi. Necessitatibus, deleniti nihil aut distinctio rerum sequi quidem quod delectus odio omnis, laborum aliquid esse fuga non. Quis animi neque culpa, iusto ullam velit voluptatum illo rem sapiente fuga amet voluptates sint aliquid aliquam tempore a tenetur impedit voluptas vero reiciendis ipsum blanditiis totam facilis consectetur. Autem consequatur ullam sed dicta ratione, labore atque quas ipsam unde."
+    }
+  ]
+}
