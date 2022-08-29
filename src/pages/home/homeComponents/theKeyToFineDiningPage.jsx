@@ -14,7 +14,7 @@ function TheKeyToFineDiningPage() {
           reprehenderit?
         </p>
         <div className="my-2">
-          <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-semibold hover:bg-transparent hover:border hover:border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
+          <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-semibold hover:bg-transparent border border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
             Explore Menu
           </button>
         </div>
@@ -25,8 +25,8 @@ function TheKeyToFineDiningPage() {
           className="p-5 object-cover z-50"
           alt="BG.jpg"
         />
-        <div className="w-[350px] h-[350px] absolute -z-10 bg-amber-200 top-0 right-0"></div>
-        <div className="w-[350px] h-[350px] absolute -z-10 bg-amber-200 bottom-0 left-0"></div>
+        <div className="w-[240px] h-[240px] lg:w-[350px] lg:h-[350px] absolute -z-10 bg-amber-200 top-1 right-1"></div>
+        <div className="w-[240px] h-[240px] lg:w-[350px] lg:h-[350px] absolute -z-10 bg-amber-200 bottom-1 left-1"></div>
       </div>
     </section>
   );

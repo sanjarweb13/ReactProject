@@ -64,8 +64,8 @@ function HomeCardComponent() {   //This component is for HomePage's card section
         </div>
       </div>
       <div className="flex justify-center">
-        <Link to="/viewMore" className="">
-          <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-bold hover:bg-transparent hover:border hover:border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
+        <Link to="/viewMore">
+          <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-bold hover:bg-transparent border border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
             View More
           </button>
         </Link>

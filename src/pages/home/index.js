@@ -1,5 +1,4 @@
 import { Layout } from "../../shared_components/layout";
-import SubscribeComp from "../../shared_components/subscribeNewsletter";
 import AboutComponent from "./homeComponents/aboutComponent";
 import BookingComp from "./homeComponents/booking";
 import HomeCardComponent from "./homeComponents/homeCardComp";

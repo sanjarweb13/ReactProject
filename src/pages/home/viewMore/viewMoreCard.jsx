@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function ViewMoreCard(props) {
   return (
-    <>
+    <Link to={`/viewMore/${props.id}`}>
       <div className="shadow-md bg-projectBg  rounded-t-md shadow-zinc-800">
         <div className="p-4">
           <img
@@ -23,15 +23,13 @@ function ViewMoreCard(props) {
             <span className="text-xl font-bold text-green-700">
               {props.createdBy}
             </span>
-            <Link to={`/viewMore/:${props.id}`}>
-              <button className="px-5 py-2 rounded-sm bg-amber-200 text-zinc-900  font-bold hover:bg-transparent hover:border hover:border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
-                Read More
-              </button>
-            </Link>
+            <button className="px-5 py-2 rounded-sm bg-amber-200 text-zinc-900  font-bold hover:bg-transparent border border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
+              Read More
+            </button>
           </div>
         </div>
       </div>
-     </>
+     </Link>
   );
 }
 

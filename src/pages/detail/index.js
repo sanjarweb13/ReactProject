@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import { Layout } from "../../shared_components/layout";
-import SubscribeComp from "../../shared_components/subscribeNewsletter";
+
 
 function DetailPage() {
   const params = useParams();

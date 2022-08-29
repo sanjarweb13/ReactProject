@@ -5,7 +5,7 @@ const forkimg = new URL("../../../media/fork.png", import.meta.url);
 
 function HistorySlice() {
   return (
-    <section className="max-w-6xl mx-4 lg:mx-auto my-32">
+    <section id="history" className="max-w-6xl mx-4 lg:mx-auto my-32">
       <div className="pt-20">
         <p className="text-amber-100 font-semibold text-xl my-10 flex items-center justify-center">
           <img

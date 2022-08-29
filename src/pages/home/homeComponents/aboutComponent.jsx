@@ -21,7 +21,7 @@ function AboutComponent() {
               consequatur ea quis sapiente voluptates magni.
             </p>
             <Link to="/about">
-              <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-semibold hover:bg-transparent hover:border hover:border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
+              <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-semibold hover:bg-transparent border border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
                 Know More
               </button>
             </Link>
@@ -39,8 +39,8 @@ function AboutComponent() {
               dicta delectus earum, vel natus accusamus, quibusdam assumenda in
               consequatur ea quis sapiente voluptates magni.
             </p>
-            <Link to="/">
-              <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-bold hover:bg-transparent hover:border hover:border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
+            <Link to="/about#history">
+              <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-bold hover:bg-transparent border border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
                 Learn More
               </button>
             </Link>

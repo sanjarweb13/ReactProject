@@ -5,7 +5,7 @@ import { Layout } from "../../../shared_components/layout";
 import ViewMoreCard from "./viewMoreCard";
 
 function ViewMorePage() {
-  const [data, setData] = useState();
+  const [data, setData] = useState(null);
 
   useEffect(() => {
     axios
