@@ -48,7 +48,7 @@ function LoginPage() {
                     ERICHT
                   </h3>
                 </div>
-                <p className="max-w-xl mt-6 text-amber-100 font-semibold text-2xl">
+                <p className="max-w-xl pl-10 mt-6 text-amber-100 font-semibold text-2xl">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
                   autem ipsa, nulla laboriosam dolores, repellendus perferendis
                   libero suscipit nam temporibus molestiae
@@ -94,6 +94,7 @@ function LoginPage() {
                       type="email"
                       name="email"
                       id="email"
+                      required
                       placeholder="example@example.com"
                       className="block w-full px-4 py-2 mt-2 text-zinc-100 placeholder-orange-100 bg-transparent border border-amber-100 rounded-md  focus:border-amber-300 focus:ring-amber-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
@@ -117,6 +118,7 @@ function LoginPage() {
                       name="password"
                       id="password"
                       placeholder="Your Password"
+                      required
                       className="block w-full px-4 py-2 mt-2 text-zinc-100 placeholder-orange-100 bg-transparent border border-amber-100 rounded-md  focus:border-amber-300 focus:ring-amber-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
                   </div>

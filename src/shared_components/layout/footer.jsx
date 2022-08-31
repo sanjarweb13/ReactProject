@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const bgPicture = new URL("../../media/BG.webp", import.meta.url);
 
-
 export function Footer() {
   return (
     <footer className="relative px-4">
@@ -42,8 +41,6 @@ export function Footer() {
             "The best way to find yourself is to lose yourself in the service of
             others"
           </p>
-          <div>
-          </div>
         </div>
         <div className="text-zinc-200 text-center">
           <h3 className="text-center text-2xl my-6 pt-20">Working Hours</h3>
