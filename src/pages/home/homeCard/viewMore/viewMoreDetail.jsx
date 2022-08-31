@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
-import { Layout } from "../../../shared_components/layout";
+import { Layout } from "../../../../shared_components/layout";
 
 function ViewMoreDetailPage() {
   const params = useParams();

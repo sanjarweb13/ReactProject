@@ -12,7 +12,7 @@ export default function SimpleSlider() {
     slidesToScroll: 1,
   };
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-8 md:mx-auto">
       <Slider {...settings}>
         <div className="text-amber-200">
           <img

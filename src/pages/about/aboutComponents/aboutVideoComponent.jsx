@@ -1,5 +1,5 @@
 import ReactPlayer from "react-player";
-const forkPicture = new URL("../../../media/fork.png", import.meta.url);
+const forkPicture = new URL("../../../media/fork.webp", import.meta.url);
 
 function AboutVideSlice() {
   return (
@@ -28,7 +28,7 @@ function AboutVideSlice() {
           eos assumenda.
         </p>
       </div>
-      <div className="flex justify-center py-10">
+      <div className="flex justify-center py-10 mx-4">
         <ReactPlayer
           muted
           width={"1152px"}

@@ -1,4 +1,6 @@
-const maskGroupPicture = new URL("../../../media/MaskGroup.jpg", import.meta.url);
+import { Link } from "react-router-dom";
+
+const maskGroupPicture = new URL("../../../media/MaskGroup.webp", import.meta.url);
 
 function TheKeyToFineDiningPage() {
   return (
@@ -13,17 +15,22 @@ function TheKeyToFineDiningPage() {
           quaerat saepe excepturi neque accusantium est dolorum, quod ullam
           reprehenderit?
         </p>
+        
         <div className="my-2">
-          <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-semibold hover:bg-transparent border border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
+        <Link to={"/#menu"}>
+          <button className="px-3 md:px-5 py-1 md:py-2 bg-amber-200 text-zinc-900  font-bold hover:bg-transparent border border-amber-200 hover:text-amber-200 active:bg-amber-200 active:text-zinc-900">
             Explore Menu
           </button>
+          </Link>
         </div>
       </div>
       <div className="relative z-50">
         <img
           src={maskGroupPicture}
           className="p-5 object-cover z-50"
-          alt="BG.jpg"
+          alt="BG.webp"
+          width={"100%"}
+          height={"100%"}
         />
         <div className="w-[240px] h-[240px] lg:w-[350px] lg:h-[350px] absolute -z-10 bg-amber-200 top-1 right-1"></div>
         <div className="w-[240px] h-[240px] lg:w-[350px] lg:h-[350px] absolute -z-10 bg-amber-200 bottom-1 left-1"></div>

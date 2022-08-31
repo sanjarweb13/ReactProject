@@ -4,7 +4,7 @@ import { Layout } from "../../../../shared_components/layout";
 import axios from "axios";
 import FoodCard from "./foodCard";
 import DesertCard from "./desertCard";
-const forkImg = new URL("../../../../media/fork.png", import.meta.url);
+const forkImg = new URL("../../../../media/fork.webp", import.meta.url);
 
 
 function DesertMenu() {
@@ -34,7 +34,7 @@ function DesertMenu() {
         <img src={forkImg} alt="fork" className="w-12 mx-4" />
       </p>
       </div>
-      <div className="max-w-screen-xl mx-4 lg:mx-auto grid grid-cols-3 gap-20 my-16">
+      <div className="max-w-screen-xl mx-4 lg:mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-20 my-16">
         {data && data.length
           ? data.map((desert) => (
               <DesertCard

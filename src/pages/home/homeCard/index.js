@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import HomeUpdateCard from "../homeUpdateCard";
-const forkImg = new URL("../../../media/fork.png", import.meta.url);
+import HomeUpdateCard from "./homeUpdateCard";
+const forkImg = new URL("../../../media/fork.webp", import.meta.url);
 
 function HomeCardComponent() {   //This component is for HomePage's card section
   const [data, setData] = useState([]);
@@ -43,6 +43,8 @@ function HomeCardComponent() {   //This component is for HomePage's card section
                 className="w-12"
                 src="https://www.pngall.com/wp-content/uploads/2/G-Letter-PNG-Image.png"
                 alt="logo"
+                width={"100%"}
+                height={"100%"}
               />
               <h1 className="font-bold text-4xl tracking-widest text-amber-200">
                 ericht Updates
@@ -65,7 +67,7 @@ function HomeCardComponent() {   //This component is for HomePage's card section
       </div>
       <div className="flex justify-center">
         <Link to="/viewMore">
-          <button className="px-5 py-2 bg-amber-200 text-zinc-900  font-bold hover:bg-transparent border border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
+          <button className="px-3 md:px-5 py-1 md:py-2 bg-amber-200 text-zinc-900  font-bold hover:bg-transparent border border-amber-200 hover:text-amber-200 active:bg-amber-200 active:text-zinc-900">
             View More
           </button>
         </Link>

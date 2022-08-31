@@ -1,7 +1,6 @@
-const forkPicture = new URL("../../../media/fork.png", import.meta.url);
-const historyImg = new URL("../../../media/MaskHistory.jpg", import.meta.url);
-const historyImg2 = new URL("../../../media/MaskHistory2.jpg", import.meta.url);
-const forkimg = new URL("../../../media/fork.png", import.meta.url);
+const historyImg = new URL("../../../media/MaskHistory.webp", import.meta.url);
+const historyImg2 = new URL("../../../media/MaskHistory2.webp", import.meta.url);
+const forkImg = new URL("../../../media/fork.webp", import.meta.url);
 
 function HistorySlice() {
   return (
@@ -9,13 +8,13 @@ function HistorySlice() {
       <div className="pt-20">
         <p className="text-amber-100 font-semibold text-xl my-10 flex items-center justify-center">
           <img
-            src={forkPicture}
+            src={forkImg}
             alt="fork"
             className="w-12 mx-4"
           />
           Our History
           <img
-            src={forkPicture}
+            src={forkImg}
             alt="fork"
             className="w-12 mx-4"
           />
@@ -57,21 +56,21 @@ function HistorySlice() {
             <div className="grid grid-cols-3 gap-10 mt-20">
               <div className="border-r-2 border-amber-200 ">
                 <div className="text-amber-200 flex mt-3">
-                  <img src={forkimg} alt="fork" className="w-10" />
+                  <img src={forkImg} alt="fork" className="w-10" />
                   <h4 className="text-5xl">30+</h4>
                 </div>
                 <h4 className="text-2xl font-bold text-amber-100 pt-5">Breakfast Options</h4>
               </div>
               <div className="border-r-2 border-amber-200 ">
                 <div className="text-amber-200 flex mt-3">
-                  <img src={forkimg} alt="fork" className="w-10" />
+                  <img src={forkImg} alt="fork" className="w-10" />
                   <h4 className="text-5xl">50+</h4>
                 </div>
                 <h4 className="text-2xl font-bold text-amber-100 pt-5">Dinner Options</h4>
               </div>
               <div>
                 <div className="text-amber-200 flex mt-3">
-                  <img src={forkimg} alt="fork" className="w-10" />
+                  <img src={forkImg} alt="fork" className="w-10" />
                   <h4 className="text-5xl">8</h4>
                 </div>
                 <h4 className="text-2xl font-bold text-amber-100 pt-5">New Location</h4>

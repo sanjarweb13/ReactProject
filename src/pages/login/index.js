@@ -26,27 +26,29 @@ function LoginPage() {
 
   return (
     <Layout>
-      <div className="">
+      <div className="lg:shadow-md lg:shadow-zinc-800">
         <div className="flex justify-center h-screen">
-          <div className="hidden bg-cover lg:block lg:w-2/3 relative">
+          <div className="hidden bg-cover lg:block lg:w-2/3 relative backgroundOpacity">
             <img
               src={loginBgImg}
               alt="bg"
-              className="h-full w-full top-0 left-0 absolute z-[-1] object-cover"
+              className="backgroundOpacityImage"
             />
-            <div className="flex items-center h-full px-20 bg-gray-900 bg-opacity-40 z-[1]">
+            <div className="flex items-center h-full px-20 bg-transparent bg-opacity-40 z-[1]">
               <div>
                 <div className="flex items-center">
                   <img
-                    className="w-20"
+                    className="w-32"
                     src="https://www.pngall.com/wp-content/uploads/2/G-Letter-PNG-Image.png"
                     alt="logo"
+                    width={"100%"}
+                    height={"100%"}
                   />
-                  <h3 className="font-bold text-5xl tracking-widest text-amber-300">
+                  <h3 className="font-bold text-8xl tracking-widest text-amber-300">
                     ERICHT
                   </h3>
                 </div>
-                <p className="max-w-xl mt-3 text-amber-100 font-semibold">
+                <p className="max-w-xl mt-6 text-amber-100 font-semibold text-2xl">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
                   autem ipsa, nulla laboriosam dolores, repellendus perferendis
                   libero suscipit nam temporibus molestiae
@@ -55,7 +57,8 @@ function LoginPage() {
             </div>
           </div>
 
-          <div className="flex items-center w-full max-w-md px-6 mx-auto lg:w-2/6">
+
+          <div className="flex items-center w-full max-w-md px-6 mx-auto lg:w-2/6 bg-transparent">
             <div className="flex-1">
               <div className="text-center">
                 <div className="flex items-center justify-center">
@@ -63,6 +66,8 @@ function LoginPage() {
                     className="w-20"
                     src="https://www.pngall.com/wp-content/uploads/2/G-Letter-PNG-Image.png"
                     alt="logo"
+                    width={"100%"}
+                    height={"100%"}
                   />
                   <h3 className="font-bold text-5xl tracking-widest text-amber-300">
                     ERICHT
@@ -79,7 +84,7 @@ function LoginPage() {
                   <div>
                     <label
                       for="email"
-                      className="block mb-2 text-lg text-amber-200"
+                      className="block mb-2 text-lg text-amber-200 bg-transparent"
                     >
                       Email Address
                     </label>
@@ -96,7 +101,7 @@ function LoginPage() {
 
                   <div className="mt-6">
                     <div className="flex justify-between mb-2">
-                      <label for="password" className="text-lg text-amber-200 ">
+                      <label for="password" className="text-lg text-amber-200 bg-transparent">
                         Password
                       </label>
                       <a

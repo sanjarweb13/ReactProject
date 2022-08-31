@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
-import { Layout } from "../../../shared_components/layout";
+import { Layout } from "../../../../shared_components/layout";
 import ViewMoreCard from "./viewMoreCard";
 
 function ViewMorePage() {
@@ -24,7 +24,7 @@ function ViewMorePage() {
       <div className="text-center my-10"> 
         <h1 className="text-amber-300 font-bold text-5xl">You Can See Some Happy Customers' Reaction Below</h1>
          </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-16 my-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 my-8 mx-4">
         {data && data.length
           ? data.map((view) => (
               <ViewMoreCard

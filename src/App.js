@@ -2,21 +2,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AboutUsPage } from "./pages/about";
 import { BlogPage } from "./pages/blog";
 import { ContactPage } from "./pages/contact";
-import DetailPage from "./pages/detail";
+import DetailPage from "./pages/home/homeCard/homeCardDetail";
 import { FAQPage } from "./pages/faq";
 import { HomePage } from "./pages/home";
 import BarMenu from "./pages/home/homeComponents/homeMenu/barMenu";
 import FoodMenu from "./pages/home/homeComponents/homeMenu/foodMenu";
 import DesertMenu from "./pages/home/homeComponents/homeMenu/desertMenu";
-import ViewMorePage from "./pages/home/viewMore/viewMore";
-import ViewMoreDetailPage from "./pages/home/viewMore/viewMoreDetail";
 import LoginPage from "./pages/login";
-import { ServicePage } from "./pages/services";
 import { TeamUsPage } from "./pages/team";
 import AuthProvider from "./utilis/authContext";
 import FoodDetail from "./pages/home/homeComponents/homeMenu/foodCard/foodDetail";
 import BarDetail from "./pages/home/homeComponents/homeMenu/barCard/barDetail";
 import DesertDetail from "./pages/home/homeComponents/homeMenu/desertCard/desertDetail";
+import ViewMorePage from "./pages/home/homeCard/viewMore/index.";
+import ViewMoreDetailPage from "./pages/home/homeCard/viewMore/viewMoreDetail";
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
                 <Route path="/about" element={<AboutUsPage />} />
                 <Route path="/blog" element={<BlogPage />} />
                 <Route path="/team" element={<TeamUsPage />} />
-                <Route path="/service" element={<ServicePage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/faq" element={<FAQPage />} />
                 <Route path="/barMenu" element={<BarMenu />} />

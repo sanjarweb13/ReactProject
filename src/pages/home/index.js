@@ -1,7 +1,7 @@
 import { Layout } from "../../shared_components/layout";
 import AboutComponent from "./homeComponents/aboutComponent";
 import BookingComp from "./homeComponents/booking";
-import HomeCardComponent from "./homeComponents/homeCardComp";
+import HomeCardComponent from "./homeCard/index.js";
 import RestoranMenu from "./homeComponents/menu";
 import SpecialDrinkComponent from "./homeComponents/specialDringkComp";
 import TheKeyToFineDiningPage from "./homeComponents/theKeyToFineDiningPage";
