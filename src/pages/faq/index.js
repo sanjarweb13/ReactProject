@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "../../shared_components/css/style.css";
 import { Layout } from "../../shared_components/layout";
-import FAQAccordion from "./faqAccordion";
-const BgImg = new URL("../../media/MaskGroup2.webp", import.meta.url);
-const forkImg = new URL("../../media/fork.webp", import.meta.url);
-const drinkImg = new URL("../../media/drink.webp", import.meta.url);
+import FAQAccordion from "./FaqAccordion";
+const BgImg = new URL("../../../public/media/MaskGroup2.webp", import.meta.url);
+const forkImg = new URL("../../../public/media/fork.webp", import.meta.url);
+const drinkImg = new URL("../../../public/media/drink.webp", import.meta.url);
 
 export function FAQPage() {
   return (

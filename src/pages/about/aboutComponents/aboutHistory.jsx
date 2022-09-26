@@ -1,6 +1,6 @@
-const historyImg = new URL("../../../media/MaskHistory.webp", import.meta.url);
-const historyImg2 = new URL("../../../media/MaskHistory2.webp", import.meta.url);
-const forkImg = new URL("../../../media/fork.webp", import.meta.url);
+const historyImg = new URL("../../../../public/media/MaskHistory.webp", import.meta.url);
+const historyImg2 = new URL("../../../../public/media/MaskHistory2.webp", import.meta.url);
+const forkImg = new URL("../../../../public/media/fork.webp", import.meta.url);
 
 function HistorySlice() {
   return (

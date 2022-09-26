@@ -11,7 +11,6 @@ function ViewMoreDetailPage() {
     axios
       .get(`http://localhost:3000/viewMoreUpdateGalleryCard/${params.id}`)
       .then(function (response) {
-        console.log(response);
         setData(response.data);
       })
       .catch(function (error) {

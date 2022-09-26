@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../utilis/authContext";
 
-const bgPicture = new URL("../../../media/BG.webp", import.meta.url);
+const bgPicture = new URL("../../../../public/media/BG.webp", import.meta.url);
 
 export function MobileMenu(props) {
   const { currentUser, logout } = useContext(AuthContext);

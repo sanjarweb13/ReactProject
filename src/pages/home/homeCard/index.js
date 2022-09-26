@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import HomeUpdateCard from "./homeUpdateCard";
-const forkImg = new URL("../../../media/fork.webp", import.meta.url);
+const forkImg = new URL("../../../../public/media/fork.webp", import.meta.url);
 
 function HomeCardComponent() {   //This component is for HomePage's card section
   const [data, setData] = useState([]);
@@ -12,7 +12,6 @@ function HomeCardComponent() {   //This component is for HomePage's card section
       .get("http://localhost:3000/updateGalleryCard")
       .then(function (response) {
         setData(response.data);
-        console.log(response);
       })
       .catch(function (error) {
         console.log(error);

@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FooterSVG from "./footerSVG/svg";
+const forkImg = new URL("../../../public/media/fork.webp", import.meta.url);
 
-const bgPicture = new URL("../../media/BG.webp", import.meta.url);
+const bgPicture = new URL("../../../public/media/BG.webp", import.meta.url);
 
 export function Footer() {
   return (
@@ -41,6 +43,12 @@ export function Footer() {
             "The best way to find yourself is to lose yourself in the service of
             others"
           </p>
+          <p className="text-amber-100 font-semibold text-lg my-10 flex items-center justify-center">
+            <img src={forkImg} alt="fork" className="w-6 mx-4" />
+            Follow Us
+            <img src={forkImg} alt="fork" className="w-6 mx-4" />
+          </p>
+          <FooterSVG />
         </div>
         <div className="text-zinc-200 text-center">
           <h3 className="text-center text-2xl my-6 pt-20">Working Hours</h3>

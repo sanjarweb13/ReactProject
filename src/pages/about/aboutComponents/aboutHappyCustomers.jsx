@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
 
-const forkImg = new URL("../../../media/fork.webp", import.meta.url);
+const forkImg = new URL("../../../../public/media/fork.webp", import.meta.url);
 
 function HappyCustomers() {
   const [data, setData] = useState(null);

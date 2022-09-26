@@ -11,7 +11,6 @@ function DesertDetail() {
     axios
       .get(`http://localhost:3000/desertMenu/${params.id}`)
       .then(function (response) {
-        console.log(response);
         setData(response.data);
       })
       .catch(function (error) {

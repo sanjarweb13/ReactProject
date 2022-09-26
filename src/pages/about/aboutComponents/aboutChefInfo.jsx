@@ -1,10 +1,10 @@
-const bgImg = new URL("../../../media/BG.webp", import.meta.url);
-const chefImg = new URL("../../../media/MaskChef.webp", import.meta.url);
-const forkImg = new URL("../../../media/fork.webp", import.meta.url);
-const kevinLuoImg = new URL("../../../media/KevinLuo.webp", import.meta.url);
-const facebookImg = new URL("../../../media/facebook-logo.webp", import.meta.url);
-const instagramImg = new URL("../../../media/instagram.webp", import.meta.url);
-const telegramImg = new URL("../../../media/telegram.webp", import.meta.url);
+const bgImg = new URL("../../../../public/media/BG.webp", import.meta.url);
+const chefImg = new URL("../../../../public/media/MaskChef.webp", import.meta.url);
+const forkImg = new URL("../../../../public/media/fork.webp", import.meta.url);
+const kevinLuoImg = new URL("../../../../public/media/KevinLuo.webp", import.meta.url);
+const facebookImg = new URL("../../../../public/media/facebook-logo.webp", import.meta.url);
+const instagramImg = new URL("../../../../public/media/instagram.webp", import.meta.url);
+const telegramImg = new URL("../../../../public/media/telegram.webp", import.meta.url);
 
 function ChefInfo() {
   return (

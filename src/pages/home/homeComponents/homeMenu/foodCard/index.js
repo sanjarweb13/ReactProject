@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
 function FoodCard(props) {
-    return ( 
-        <Link to={`/foodDetail/${props.id}`}>
-        <div className="shadow-md shadow-zinc-700 bg-projectBg rounded-t-md">
+  return (
+    <Link to={`/foodDetail/${props.id}`}>
+      <div className="shadow-md shadow-zinc-700 bg-projectBg rounded-t-md">
         <div>
           <img
             className="aspect-4/3 object-cover rounded-t-md w-full p-3 "
@@ -18,7 +18,7 @@ function FoodCard(props) {
             {props.name}
           </h1>
           <p className="my-4 font-semibold text-rose-400 text-xl">
-           $ {props.price}
+            $ {props.price}
           </p>
           <p className="font-semibold text-zinc-100 my-6 line-clamp-2">
             {props.description}
@@ -34,8 +34,8 @@ function FoodCard(props) {
           </div>
         </div>
       </div>
-      </Link>
-     );
+    </Link>
+  );
 }
 
 export default FoodCard;

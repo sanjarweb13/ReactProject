@@ -3,7 +3,6 @@ import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import { Layout } from "../../../../shared_components/layout";
 
-
 function DetailPage() {
   const params = useParams();
   const [data, setData] = useState([]);
@@ -13,7 +12,6 @@ function DetailPage() {
       .get(`http://localhost:3000/updateGalleryCard/${params.id}`)
       .then(function (response) {
         setData(response.data);
-        console.log(params.id)
       })
       .catch(function (error) {
         console.log(error);
@@ -41,14 +39,12 @@ function DetailPage() {
                 <p className="text-lg text-zinc-100">{data.date}</p>
               </div>
             </div>
-
-              <Link to="/">
-                <button className="px-5 py-2 my-6 bg-amber-200 text-zinc-900  font-bold hover:bg-transparent hover:border hover:border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
-                  Back To Home
-                </button>
-              </Link>
+            <Link to="/">
+              <button className="px-5 py-2 my-6 bg-amber-200 text-zinc-900  font-bold hover:bg-transparent border border-amber-200 hover:text-amber-200 p-2 active:bg-amber-200 active:text-zinc-900">
+                Back To Home
+              </button>
+            </Link>
           </div>
-
           <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
             <img
               className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl"
@@ -63,10 +59,9 @@ function DetailPage() {
           {data.exttitle}
         </h2>
         <p className="text-2xl text-justify font-bold py-3 text-zinc-100">
-         {data.extdescription}
+          {data.extdescription}
         </p>
       </section>
-
     </Layout>
   );
 }

@@ -3,7 +3,10 @@ import { useNavigate } from "react-router-dom";
 import { Layout } from "../../shared_components/layout";
 import { AuthContext } from "../../utilis/authContext";
 
-const loginBgImg = new URL("../../media/logobg.webp", import.meta.url);
+const loginBgImg = new URL(
+  "../../../public/media/logobg.webp",
+  import.meta.url
+);
 
 function LoginPage() {
   const { currentUser, setCurrentUser } = useContext(AuthContext);
@@ -17,10 +20,12 @@ function LoginPage() {
   }, []);
 
   const onSign = () => {
-    setCurrentUser({
-      email: emailInp.trim(),
+    const user = {
+      email: emailInp,
       isAdmin: false,
-    });
+    };
+    setCurrentUser(user);
+    localStorage.setItem("banana", JSON.stringify(user));
     navigate("/");
   };
 
@@ -29,11 +34,7 @@ function LoginPage() {
       <div className="lg:shadow-md lg:shadow-zinc-800">
         <div className="flex justify-center h-screen">
           <div className="hidden bg-cover lg:block lg:w-2/3 relative backgroundOpacity">
-            <img
-              src={loginBgImg}
-              alt="bg"
-              className="backgroundOpacityImage"
-            />
+            <img src={loginBgImg} alt="bg" className="backgroundOpacityImage" />
             <div className="flex items-center h-full px-20 bg-transparent bg-opacity-40 z-[1]">
               <div>
                 <div className="flex items-center">
@@ -56,7 +57,6 @@ function LoginPage() {
               </div>
             </div>
           </div>
-
 
           <div className="flex items-center w-full max-w-md px-6 mx-auto lg:w-2/6 bg-transparent">
             <div className="flex-1">
@@ -102,7 +102,10 @@ function LoginPage() {
 
                   <div className="mt-6">
                     <div className="flex justify-between mb-2">
-                      <label for="password" className="text-lg text-amber-200 bg-transparent">
+                      <label
+                        for="password"
+                        className="text-lg text-amber-200 bg-transparent"
+                      >
                         Password
                       </label>
                       <a
@@ -117,8 +120,8 @@ function LoginPage() {
                       type="password"
                       name="password"
                       id="password"
-                      placeholder="Your Password"
                       required
+                      placeholder="Your Password"
                       className="block w-full px-4 py-2 mt-2 text-zinc-100 placeholder-orange-100 bg-transparent border border-amber-100 rounded-md  focus:border-amber-300 focus:ring-amber-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
                   </div>

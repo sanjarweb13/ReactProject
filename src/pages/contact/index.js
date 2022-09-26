@@ -1,10 +1,10 @@
 import "../../shared_components/css/style.css";
 import { Layout } from "../../shared_components/layout";
 import { text } from "@fortawesome/fontawesome-svg-core";
-const BgImg = new URL("../../media/MaskGroup2.webp", import.meta.url);
-const forkImg = new URL("../../media/fork.webp", import.meta.url);
-const mapImg = new URL("../../media/map.webp", import.meta.url);
-const bgImg = new URL("../../media/BG.webp", import.meta.url);
+const BgImg = new URL("../../../public/media/MaskGroup2.webp", import.meta.url);
+const forkImg = new URL("../../../public/media/fork.webp", import.meta.url);
+const mapImg = new URL("../../../public/media/map.webp", import.meta.url);
+const bgImg = new URL("../../../public/media/BG.webp", import.meta.url);
 
 export function ContactPage() {
   return (
@@ -18,7 +18,9 @@ export function ContactPage() {
             <div className="text-7xl text-amber-300 font-bold flex justify-center">
               <div className="text-amber-100 font-semibold text-2xl my-10 flex items-center justify-center">
                 <img src={forkImg} alt="fork" className="w-12 mx-4" />
-                <p className="text-center">We Are Very Happy With Everyone Who Contacts Us</p>
+                <p className="text-center">
+                  We Are Very Happy With Everyone Who Contacts Us
+                </p>
                 <img src={forkImg} alt="fork" className="w-12 mx-4" />
               </div>
             </div>

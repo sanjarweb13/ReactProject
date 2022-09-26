@@ -1,9 +1,12 @@
 import { Layout } from "../../shared_components/layout";
+import ChefsTeam from "./TeamComponents/teamChefSection";
+import TeamWelcome from "./TeamComponents/teamWelcomeSection";
 
-export function TeamUsPage(){
+export function TeamPage(){
     return(
         <Layout>
-        <div>Team</div>
+        <TeamWelcome/>
+        <ChefsTeam/>
         </Layout>
     )
 }

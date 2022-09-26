@@ -16,7 +16,7 @@ export default function FAQAccordion() {
   return (
     <Accordion className="font-bold">
       <AccordionItem className="my-2">
-        <AccordionItemHeading className="font-bold text-amber-300">
+        <AccordionItemHeading className="font-bold">
           <AccordionItemButton>
             How Do I Rach The Restourant?
           </AccordionItemButton>
@@ -105,7 +105,6 @@ export default function FAQAccordion() {
           </p>
         </AccordionItemPanel>
       </AccordionItem>
-      
     </Accordion>
   );
 }

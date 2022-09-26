@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const knivePicture = new URL("../../../media/knive.webp", import.meta.url);
-const bgPicture = new URL("../../../media/BG.webp", import.meta.url);
-const GPicture = new URL("../../../media/G.webp", import.meta.url);
+const knivePicture = new URL("../../../../public/media/knive.webp", import.meta.url);
+const bgPicture = new URL("../../../../public/media/BG.webp", import.meta.url);
+const GPicture = new URL("../../../../public/media/G.webp", import.meta.url);
 
 function AboutComponent() {
   return (

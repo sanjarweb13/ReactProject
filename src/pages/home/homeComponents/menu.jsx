@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const menuPicture = new URL("../../../media/menubg.webp", import.meta.url);
+const menuPicture = new URL("../../../../public/media/menubg.webp", import.meta.url);
 
 function RestoranMenu() {
   return (
@@ -16,20 +16,20 @@ function RestoranMenu() {
         className="top-0 left-0 w-full h-full absolute bject-cover z-[-1] backgroundOpacityImage "
       />
       <div className="z-[1]">
-        <div className="flex justify-start mx-6">
+        <div className="flex justify-start ml-20">
           <div>
           <Link to="/barMenu">
-            <p className="text-4xl font-bold text-amber-200 my-6 hover:translate-x-3 duration-300 hover:underline">
+            <p className="text-4xl font-bold text-amber-200 my-6 hover:translate-x-3 duration-300">
               Bar Menu
             </p>
           </Link>
           <Link to="/foodMenu">
-            <p className="text-4xl font-bold text-amber-200 my-6 hover:translate-x-3 duration-300 hover:underline">
+            <p className="text-4xl font-bold text-amber-200 my-6 hover:translate-x-3 duration-300">
               Food Menu
             </p>
           </Link>
           <Link to="/desertMenu">
-            <p className="text-4xl font-bold text-amber-200 my-6 hover:translate-x-3 duration-300 hover:underline">
+            <p className="text-4xl font-bold text-amber-200 my-6 hover:translate-x-3 duration-300">
               Desert Menu
             </p>
           </Link>

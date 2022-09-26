@@ -1,10 +1,10 @@
-const forkPicture = new URL("../../../media/fork.webp", import.meta.url);
-const glassPicture = new URL("../../../media/glass2.webp", import.meta.url);
+const forkPicture = new URL("../../../../public/media/fork.webp", import.meta.url);
+const glassPicture = new URL("../../../../public/media/glass2.webp", import.meta.url);
 const boottlePicture = new URL(
-  "../../../media/boottleDrinks.webp",
+  "../../../../public/media/boottleDrinks.webp",
   import.meta.url
 );
-const andSignPicture = new URL("../../../media/andsign.webp", import.meta.url);
+const andSignPicture = new URL("../../../../public/media/andsign.webp", import.meta.url);
 
 function SpecialDrinkComponent() {
   return (

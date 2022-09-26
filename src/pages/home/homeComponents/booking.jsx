@@ -1,5 +1,5 @@
-const groupPicture = new URL("../../../media/Group85.webp", import.meta.url);
-const forkImg = new URL("../../../media/fork.webp", import.meta.url);
+const groupPicture = new URL("../../../../public/media/Group85.webp", import.meta.url);
+const forkImg = new URL("../../../../public/media/fork.webp", import.meta.url);
 
 function BookingComp() {
   return (

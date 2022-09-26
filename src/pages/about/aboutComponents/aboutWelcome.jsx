@@ -1,7 +1,7 @@
 import "../../../shared_components/css/style.css"
-const forkImg = new URL("../../../media/fork.webp", import.meta.url);
+const forkImg = new URL("../../../../public/media/fork.webp", import.meta.url);
 
-const AboutBg = new URL("../../../media/MaskGroup2.webp", import.meta.url);
+const AboutBg = new URL("../../../../public/media/MaskGroup2.webp", import.meta.url);
 function WelcomeSlice() {
   return (
     <section className="relative backgroundOpacity h-[85vh]">

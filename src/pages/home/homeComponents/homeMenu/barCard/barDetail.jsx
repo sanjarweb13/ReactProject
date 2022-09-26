@@ -3,26 +3,23 @@ import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 import { Layout } from "../../../../../shared_components/layout";
 
-
 function BarDetail() {
-    const params = useParams();
-    const [data, setData] = useState([]);
-    console.log(params.id);
-    useEffect(() => {
-      axios
-        .get(`http://localhost:3000/barMenu/${params.id}`)
-        .then(function (response) {
-          console.log(response);
-          setData(response.data);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
-    }, []);
+  const params = useParams();
+  const [data, setData] = useState([]);
+  console.log(params.id);
+  useEffect(() => {
+    axios
+      .get(`http://localhost:3000/barMenu/${params.id}`)
+      .then(function (response) {
+        setData(response.data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }, []);
 
-
-    return ( 
-<Layout>
+  return (
+    <Layout>
       <section className="max-w-6xl mx-4 md:mx-auto">
         <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
           <div className="w-full lg:w-1/2">
@@ -31,12 +28,12 @@ function BarDetail() {
                 {data.name}
               </h1>
               <div className="my-6">
-                <p className="text-xl text-amber-100 line-clamp-3">{data.description}</p>
+                <p className="text-xl text-amber-100 line-clamp-3">
+                  {data.description}
+                </p>
               </div>
               <div className="font-bold">
-                <p className="text-green-600 text-xl font-bold">
-                  {data.born}
-                </p>
+                <p className="text-green-600 text-xl font-bold">{data.born}</p>
                 <p className="text-lg text-rose-400">$ {data.price}</p>
               </div>
             </div>
@@ -66,7 +63,7 @@ function BarDetail() {
         </p>
       </section>
     </Layout>
-     );
+  );
 }
 
 export default BarDetail;

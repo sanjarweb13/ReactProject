@@ -1,5 +1,5 @@
 import ReactPlayer from "react-player";
-const forkPicture = new URL("../../../media/fork.webp", import.meta.url);
+const forkPicture = new URL("../../../../public/media/fork.webp", import.meta.url);
 
 function AboutVideSlice() {
   return (

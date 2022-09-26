@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const maskGroupPicture = new URL("../../../media/MaskGroup.webp", import.meta.url);
+const maskGroupPicture = new URL("../../../../public/media/MaskGroup.webp", import.meta.url);
 
 function TheKeyToFineDiningPage() {
   return (

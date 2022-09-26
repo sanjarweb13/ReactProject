@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Layout } from "../../../../shared_components/layout";
 import axios from "axios";
 import FoodCard from "./foodCard";
-const forkImg = new URL("../../../../media/fork.webp", import.meta.url);
+const forkImg = new URL("../../../../../public/media/fork.webp", import.meta.url);
 
 
 function FoodMenu() {
@@ -14,7 +14,6 @@ function FoodMenu() {
       .get("http://localhost:3000/foodMenu")
       .then(function (response) {
         setData(response.data);
-        console.log(response);
       })
       .catch(function (error) {
         console.log(error);

@@ -395,5 +395,73 @@
       "price": "5.98",
       "imageURL": "https://i.shgcdn.com/cde7565d-8efe-4547-959f-8149dbcf9d60/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
     }
+  ],
+  "chefsTeam":[
+    {
+      "id":"1",
+      "imageURL":"http://theintegrativechef.com/wp-content/uploads/2021/09/01-1.jpg",
+      "name":"Kevin Luo",
+      "degree":"Head Chef",
+      "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae sequi. Cupiditate iste vel labore sequi molestias doloremque sed aut id odit possimus voluptate magni voluptatibus, qui maiores illum necessitatibus!",
+      "education":"Graduated From Culinary Institute Of New Jersey, USA.",
+      "work":"Worked as a junior chef at ruso's Italiano.",
+      "experience":"Contributed 20+ new recipes on International platform.",
+      "trained":"Trained under renowned Chef Gusteau Marcellini."
+    },
+    {
+      "id":"2",
+      "imageURL":"http://theintegrativechef.com/wp-content/uploads/2021/09/02.jpg",
+      "name":"Patrick Choi",
+      "degree":"Deputy Chef",
+      "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae sequi. Cupiditate iste vel labore sequi molestias doloremque sed aut id odit possimus voluptate magni voluptatibus, qui maiores illum necessitatibus!",
+      "education":"Graduated From Culinary Institute Of New Jersey, USA.",
+      "work":"Worked as a junior chef at ruso's Italiano.",
+      "experience":"Contributed 20+ new recipes on International platform.",
+      "trained":"Trained under renowned Chef Gusteau Marcellini."
+    },
+    {
+      "id":"3",
+      "imageURL":"http://theintegrativechef.com/wp-content/uploads/2021/09/06.jpg",
+      "name":"Jack Biscoff",
+      "degree":"Station Chef",
+      "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae sequi. Cupiditate iste vel labore sequi molestias doloremque sed aut id odit possimus voluptate magni voluptatibus, qui maiores illum necessitatibus!",
+      "education":"Graduated From Culinary Institute Of New Jersey, USA.",
+      "work":"Worked as a junior chef at ruso's Italiano.",
+      "experience":"Contributed 20+ new recipes on International platform.",
+      "trained":"Trained under renowned Chef Gusteau Marcellini."
+    },
+    {
+      "id":"4",
+      "imageURL":"http://theintegrativechef.com/wp-content/uploads/2021/09/03.jpg",
+      "name":"Stacy Lee",
+      "degree":"Station Chef",
+      "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae sequi. Cupiditate iste vel labore sequi molestias doloremque sed aut id odit possimus voluptate magni voluptatibus, qui maiores illum necessitatibus!",
+      "education":"Graduated From Culinary Institute Of New Jersey, USA.",
+      "work":"Worked as a junior chef at ruso's Italiano.",
+      "experience":"Contributed 20+ new recipes on International platform.",
+      "trained":"Trained under renowned Chef Gusteau Marcellini."
+    },
+    {
+      "id":"5",
+      "imageURL":"http://theintegrativechef.com/wp-content/uploads/2021/09/04.jpg",
+      "name":"Aren Goodman",
+      "degree":"Junior Chef",
+      "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae sequi. Cupiditate iste vel labore sequi molestias doloremque sed aut id odit possimus voluptate magni voluptatibus, qui maiores illum necessitatibus!",
+      "education":"Graduated From Culinary Institute Of New Jersey, USA.",
+      "work":"Worked as a junior chef at ruso's Italiano.",
+      "experience":"Contributed 20+ new recipes on International platform.",
+      "trained":"Trained under renowned Chef Gusteau Marcellini."
+    },
+    {
+      "id":"6",
+      "imageURL":"https://wordpress.iqonic.design/product/wp/gericht/wp-content/uploads/2021/09/05.jpg",
+      "name":"Javier Dowsing",
+      "degree":"Junior Chef",
+      "about":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, repudiandae sequi. Cupiditate iste vel labore sequi molestias doloremque sed aut id odit possimus voluptate magni voluptatibus, qui maiores illum necessitatibus!",
+      "education":"Graduated From Culinary Institute Of New Jersey, USA.",
+      "work":"Worked as a junior chef at ruso's Italiano.",
+      "experience":"Contributed 20+ new recipes on International platform.",
+      "trained":"Trained under renowned Chef Gusteau Marcellini."
+    }
   ]
 }
